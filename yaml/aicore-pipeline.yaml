@@ -22,7 +22,8 @@ spec:
 
   - name: mycodeblock1
     container:
-      image: docker.io/sriramrokkam/aicore:V2 # Your docker image name
+      image: docker.io/sriramrokkam/aicore:sha256:4fbd8a6060257a47ad7a89fa4397a056b56562b03a71827b89e85af2f21be862 # Your docker image name
+      imagePullPolicy: Always
       command: ["/bin/sh", "-c"]
       args:
         - "python /app/src/main.py"
