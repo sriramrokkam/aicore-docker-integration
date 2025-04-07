@@ -1,0 +1,11 @@
+{
+  "serviceurls": {
+    "AI_API_URL": "https://api.ai.prod.us-east-1.aws.ml.hana.ondemand.com"
+  },
+  "appname": "367079b3-3023-4300-8c56-7f05b812bbe5!b122220|aicore!b164",
+  "clientid": "sb-367079b3-3023-4300-8c56-7f05b812bbe5!b122220|aicore!b164",
+  "clientsecret": "664eed88-a51d-40d3-aa44-d99cd7ff09f2$GfLXh5QaFHy8lVMUMZZ7NIGP01yuJCKF4iM8T5EiVOE=",
+  "identityzone": "sap-build-training-hcd2uswp",
+  "identityzoneid": "826a0db1-60f1-4300-9402-3cf6322729d1",
+  "url": "https://sap-build-training-hcd2uswp.authentication.us10.hana.ondemand.com"
+}
