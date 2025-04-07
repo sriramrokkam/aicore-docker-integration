@@ -3,9 +3,9 @@ kind: WorkflowTemplate
 metadata:
   name: aicore-pipeline # executable id, must be unique across all your workflows (YAML files), please modify this to any value (e.g. code-pipeline-12345) if you are not the only user of your SAP AI Core instance.
   annotations:
-    scenarios.ai.sap.com/description: "AI CORE on Docker"
+    scenarios.ai.sap.com/description: "aicore docker"
     scenarios.ai.sap.com/name: "aicore-pipeline"
-    executables.ai.sap.com/description: "AI CORE on Docker"
+    executables.ai.sap.com/description: "aicore docker"
     executables.ai.sap.com/name: "aicore-pipeline"
   labels:
     scenarios.ai.sap.com/id: "aicore-pipeline" # should be small case and seperated by hyphen
