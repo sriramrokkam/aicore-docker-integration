@@ -27,7 +27,6 @@ spec:
 
 
  # Your docker image name
-      imagePullPolicy: Always
-      command: ["/bin/sh", "-c"]
-      args:
+    command: ["/bin/sh", "-c"]
+    args:
         - "python /app/src/main.py"
