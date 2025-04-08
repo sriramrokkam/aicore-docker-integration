@@ -22,7 +22,8 @@ spec:
 
   - name: mycodeblock1
     container:
-      image: docker.io/sriramrokkam/sriramrokkam/python:3.14-rc-alpine3.21
+      image: docker.io/sriramrokkam/aicore:V2
+
  # Your docker image name
       imagePullPolicy: Always
       command: ["/bin/sh", "-c"]
