@@ -22,7 +22,9 @@ spec:
 
   - name: mycodeblock1
     container:
-      image: docker.io/sriramrokkam/aicore:V3
+    #  image: docker.io/sriramrokkam/aicore:V3 ## without BERTopic
+    image: docker.io/sriramrokkam/aicore:bertopic ## With BERTopic
+
 
  # Your docker image name
       imagePullPolicy: Always
