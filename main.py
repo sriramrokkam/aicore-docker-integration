@@ -19,4 +19,5 @@ clf.fit(train_x, train_y)
 test_r2_score = clf.score(test_x, test_y)
 # Output will be available in logs of SAP AI Core.
 # Not the ideal way of storing /reporting metrics in SAP AI Core, but that is not the focus this tutorial
+print(f"BERTOPIC is installed")
 print(f"Test Data Score {test_r2_score}")
