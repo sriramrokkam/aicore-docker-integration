@@ -1,6 +1,6 @@
 # Specify which base layers (default dependencies) to use
 # You may find more base layers at https://hub.docker.com/
-FROM python:3.10
+FROM python:3.12
 #
 # Creates directory within your Docker image
 RUN mkdir -p /app/src/
