@@ -1,4 +1,4 @@
-# aicore_test
+# SAP AI Core - Docker Integration
 AI Core - Docker
 
 ---
