@@ -1,3 +1,16 @@
+# Dockerfile
+
+# Builds a Python 3.12 environment for running large ML/NLP libraries (e.g., bertopic) in SAP AI Core or similar platforms.
+#
+# - Installs dependencies from requirements.txt
+# - Copies your main application code to /app/src/
+# - Sets open permissions for /app (for containerized execution)
+#
+# Usage:
+#   docker build -t your-dockerhub-username/aicore:bertopic -f docker/Dockerfile ..
+#   docker push your-dockerhub-username/aicore:bertopic
+#   docker run --rm -it your-dockerhub-username/aicore:bertopic python /app/src/main.py
+
 # Specify which base layers (default dependencies) to use
 # You may find more base layers at https://hub.docker.com/
 FROM python:3.12

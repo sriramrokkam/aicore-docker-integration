@@ -1,2 +1,6 @@
+# requirements.txt
+
+# List of Python dependencies for the AI Core Docker Integration Demo.
+# Add any additional libraries your project needs below.
 scikit-learn
 bertopic

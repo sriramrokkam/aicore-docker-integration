@@ -1,0 +1,12 @@
+# See https://github.com/github/gitignore/blob/main/Python.gitignore for more
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.*
+*.swp
+.DS_Store
+docker/*.pyc
+.venv/
+

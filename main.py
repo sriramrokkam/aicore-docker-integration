@@ -1,4 +1,3 @@
-
 import bertopic as bt
 import pandas as pd
 print('Log: Please add "bertopic" in "requirements.txt"')
